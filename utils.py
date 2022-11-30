@@ -74,12 +74,12 @@ weekday_converter = {"mon": 0,
 }
 
 timezone_converter = {
-"eastern": "US/Eastern",
-"central": "US/Central",
-"mountain": "US/Mountain",
-"western": "US/Pacific",
-"alaskan": "US/Alaska",
-"hawaiian": "US/Hawaii"
+    "eastern": "US/Eastern",
+    "central": "US/Central",
+    "mountain": "US/Mountain",
+    "western": "US/Pacific",
+    "alaskan": "US/Alaska",
+    "hawaiian": "US/Hawaii"
 }
 
 interviewer_email_converter = {
@@ -93,5 +93,6 @@ interviewer_email_converter = {
     "zoua": "zlor@wisc.edu",
     "Zishan": "zjiwani@wisc.edu",
     "zishan": "zjiwani@wisc.edu",
-    "Testing": "pskukreja@wisc.edu"
+    "Testing": "pskukreja@wisc.edu",
+    "Sin" : "lam26@wisc.edu"
 }

@@ -85,8 +85,8 @@ class GoogleCalendarClient:
         """
         # print("\nSCHEDULING GOOGLE CALENDAR EVENT\n")
 
-        print(f"\nEVENT SCHEDULED - {interviewer_name}\nStart: {participant_start}\tEnd: {participant_end}\nattendees: {interviewer_email}")
-        event = Event(summary=f"SCHEDULED - {interviewer_name}", start=participant_start, end=participant_end, attendees=interviewer_email)
+        # print(f"\nEVENT SCHEDULED - {interviewer_name}\nStart: {participant_start}\tEnd: {participant_end}\nattendees: {interviewer_email}")
+        # event = Event(summary=f"SCHEDULED - {interviewer_name}", start=participant_start, end=participant_end, attendees=interviewer_email)
 
         # self.calendar.add_event(event)
 

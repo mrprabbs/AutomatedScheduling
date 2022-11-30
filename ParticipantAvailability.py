@@ -41,4 +41,4 @@ class ParticipantAvailability:
         self.end = end
 
     def __str__(self):
-        return f"WebscreenID: {self.webscreen_id}\nTimezone: {self.timezone}\nStart: {self.start}\nEnd: {self.end}"
+        return f"WebscreenID: {self.webscreen_id}\nTimezone: {self.timezone}\nStart: {self.start.astimezone(self.timezone).strftime('%Y-%m-%d %I:%M%p')}\nEnd: {self.end.astimezone(self.timezone).strftime('%Y-%m-%d %I:%M%p')}"
